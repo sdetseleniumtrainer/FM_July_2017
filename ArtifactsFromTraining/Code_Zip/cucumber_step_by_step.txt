@@ -1,0 +1,25 @@
+Objective is to test a feature/user story
+Psuedo statement is: wHEN wE ARE ON EbAY pAGE, aND WHEN WE TYPE ipHONE AND SEARCH, WE SHOULD SEE MANY IPHONES
+
+
+--------------------------------------------
+
+1.Create a Java Project
+2.Create a package for features
+3. Add a feature file 
+   a) Desribe feature and add the scenario in GHERKIN
+      GIVEN
+      WHEN
+      THEN
+
+
+4.Run the feature file
+     It will fail/show pending or undefined because step definition is not implemented
+
+5.Take/copy the code that's given to us after running feature
+
+6. Create a Package for Step_Definitions
+     a)   Create a JAVA Class
+     b)   Paste the methods into the JAVA step definition file
+
+7. We need to ADD SELENIUM related code in the step definition file methods 

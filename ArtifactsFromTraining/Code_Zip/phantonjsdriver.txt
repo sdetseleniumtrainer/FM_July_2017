@@ -1,0 +1,13 @@
+@Test
+	public void test_PhantomJSDriver_ShoppingCartCompleteTestCase() throws Exception {
+	File file = new File("C:/SeleniumJAVATraining/ALLJARS/phantomjs-2.1.1-windows/phantomjs-2.1.1-windows/bin/phantomjs.exe");				
+    System.setProperty("phantomjs.binary.path", file.getAbsolutePath());		
+    driver = new PhantomJSDriver();	
+    driver.get("http://www.google.com");         
+    WebElement element = driver.findElement(By.name("q"));	
+    element.sendKeys("Donald Trump");	
+    captureScreenshot();
+    element.submit();         			
+    System.out.println("PhantomJSDriver Browser: Page title is: " + driver.getTitle());		
+    driver.quit();			
+}		

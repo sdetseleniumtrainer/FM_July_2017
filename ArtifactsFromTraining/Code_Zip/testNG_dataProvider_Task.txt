@@ -1,0 +1,8 @@
+Using @DataProvider to run Data Driven Tests
+
+steps:
+1. Create a method that returns data as an array of objects (this is our dataProvider)
+
+2.Our test will consume this dataProvider and for this we need to 
+a) add parameters to the testcase
+b)add attribute to use the dataProvider

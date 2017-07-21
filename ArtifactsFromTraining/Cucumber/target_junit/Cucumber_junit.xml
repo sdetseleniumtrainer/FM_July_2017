@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="12.96926">
+<testcase classname="github login" name="login without username and password" time="12.968924">
+<system-out><![CDATA[Given user is on github homepage............................................passed
+When user clicks on Sign in button..........................................passed
+Then user is displayed login screen.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="login Page" name="checking pre-condition, action and results" time="0.000336">
+<system-out><![CDATA[Given user is on Home page..................................................passed
+When user clicks Log in button..............................................passed
+Then user is on login screen................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,8 @@
+BDD Cucumber Practical:
+1. Create Java Project
+2. Configure Cucumber Jar files
+3. Create Feature File
+4. Create Step Definition Files
+5. Create Junit Cucumber TestRunner
+6. Check Reports
+7. Data Drive a Cucumber Test

@@ -1,0 +1,11 @@
+sdettraining.com/trguitransactions/default.aspx?id=new
+
+http://sdettraining.com/trguitransactions/Register.aspx
+
+sdettraining.com/online
+
+http://localhost:8888
+
+https://github.com/sdetseleniumtrainer/mvn
+
+sdet.agile@outlook.com

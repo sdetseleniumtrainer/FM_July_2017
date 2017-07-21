@@ -1,0 +1,114 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "login without username and password",
+        "description": "",
+        "id": "github-login;login-without-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8645951088,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on github homepage",
+            "match": {
+              "location": "github_login_step_definition.user_is_on_github_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 120371507,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on Sign in button",
+            "match": {
+              "location": "github_login_step_definition.user_clicks_on_Sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4202601899,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is displayed login screen",
+            "match": {
+              "location": "github_login_step_definition.user_is_displayed_login_screen()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "github login",
+    "description": "",
+    "id": "github-login",
+    "keyword": "Feature",
+    "uri": "github_login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "checking pre-condition, action and results",
+        "description": "",
+        "id": "login-page;checking-pre-condition,-action-and-results",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 161223,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on Home page",
+            "match": {
+              "location": "sdettraining_login_step_definition.user_is_on_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 84246,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks Log in button",
+            "match": {
+              "location": "sdettraining_login_step_definition.user_clicks_Log_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 90662,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on login screen",
+            "match": {
+              "location": "sdettraining_login_step_definition.user_is_on_login_screen()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "login Page",
+    "description": "In order to test login page\r\nAs a Registered user\r\nI want to specify the login conditions",
+    "id": "login-page",
+    "keyword": "Feature",
+    "uri": "sdettraining_login.feature"
+  }
+]

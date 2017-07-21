@@ -1,0 +1,82 @@
+D6:
+
+1. Setting up the environment
+2. Creating our first Selenium Test
+3. Discussing different modes of Selenium
+4. Introducing to WebDriver
+5. Beautifying the selenium pig
+6. Intro to TDD/BDD
+7. Discussing features/step definitions
+8. First interaction with Cucumber
+
+-------------------------------------------------
+D7:
+
+1. Introduction to TestNG
+2. Creating and Running Test Suite in TestNG
+3. Using @DataProvider to run Data Driven Tests
+4. Using Headless Testing with HtmlUnitDriver and PhantomJSDriver (screenshots to verify the execution of the tests)
+5. Building a Page Object Model POM DDT
+
+Revisiting Cucumber:
+BDD Cucumber Practical:
+1. Create Java Project
+2. Configure Cucumber Jar files
+3. Create Feature File
+4. Create Step Definition Files
+5. Create Junit Cucumber TestRunner
+6. Check Reports
+7. Data Drive a Cucumber Test
+
+8. Run UAT with Selenium/Cucumber
+
+---------------------------------
+
+D8:
+1. In-Depth Cucumber
+2. Data Driving Cucumber: Scenario Outline With Examples
+3. Tags
+4. Running Selenium API from Cucumber Tests
+5. Cleaning up the mess by using SeleniumFunctions in a separate class
+6. Discussing JAVA Mail Testing from Cucumber
+
+-----------------------------------
+
+D9:
+
+Framework:
+
+I.Settingup the Environment
+   a.check JAVA version
+   b.check MAVEN version
+
+II.Create a Maven Project
+   a.adding dependencies (google testNG maven dependency)
+   b.adding Selenium dependency
+
+   
+   c.adding build capability with maven-surefire-plugin
+   d.setting up configuration (element) of testRunners, ex: testNG.xml
+     optionally using <properties> setting up in test/resources folder
+
+   e.setting up the structure by creating the following in the src/test/resources
+     1.excel (testdata.xls)
+     2.executables (chromedriver.exe, geckodriver.exe, ieServerDriver.exe)
+     3.extentreportsconfig (ReportsConfig.xml)
+     4.logs (App.log, Selenium.log)
+     5.properties (Config.properties, OR.properties)
+     6.runners (testng.xml)
+     7.screenshots (saving all screenshots)
+
+   f.continuing setting up the structure by creating packages in the src/test/java
+     1.com.fanniemae.base (TestBase.java class)...all testcases will extend this class
+     2.com.fanniemae.listeners (CustomListeners.java class) implements ITestListener
+     3.com.fanniemae.testcases
+     4.com.fanniemae.utilities (ExtentManager.java class, saving of extentreports)
+
+III. Begin writing the code
+     1. Designing the TestBase class
+     2. Creating TestCases
+     3. Running a DDT using data from external repository using JDBC jar
+
+

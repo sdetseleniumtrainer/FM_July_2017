@@ -1,0 +1,19 @@
+Feature: Test Upgrade Package Email Sending
+  In order to sell upgrade package to qualifying customers 
+  As a Marketing Manager
+  I want to send an email with Promotion in the email body
+
+Scenario Outline: E-mail content 
+    Given A user account with <Role> rights
+    Then I should receive an email with the body:
+      """
+      Dear Customer,
+      We are happy to announce that as a <Role> customer You qualify for our best package.  
+      You are <details>. Please contact us within <expirydays>  
+      -The Admins
+      """
+
+    Examples:
+      | Role            | details                                       | expirydays |
+      | Prospective     | now able to watch 100 Sports CHANNELS         |   14   |
+      | Preferred       | able to watch International SPORTS CHANNEL    |   21   |

@@ -1,0 +1,37 @@
+Framework:
+
+I.Settingup the Environment
+   a.check JAVA version
+   b.check MAVEN version
+
+II.Create a Maven Project
+   a.adding dependencies (google testNG maven dependency)
+   b.adding Selenium dependency
+
+   
+   c.adding build capability with maven-surefire-plugin
+   d.setting up configuration (element) of testRunners, ex: testNG.xml
+     optionally using <properties> setting up in test/resources folder
+
+   e.setting up the structure by creating the following in the src/test/resources
+     1.excel (testdata.xls)
+     2.executables (chromedriver.exe, geckodriver.exe, ieServerDriver.exe)
+     3.extentreportsconfig (ReportsConfig.xml)
+     4.logs (App.log, Selenium.log)
+     5.properties (Config.properties, OR.properties)
+     6.runners (testng.xml)
+     7.screenshots (saving all screenshots)
+
+   f.continuing setting up the structure by creating packages in the src/test/java
+     1.com.fanniemae.base (TestBase.java class)...all testcases will extend this class
+     2.com.fanniemae.listeners (CustomListeners.java class) implements ITestListener
+     3.com.fanniemae.testcases
+     4.com.fanniemae.utilities (ExtentManager.java class, saving of extentreports)
+
+III. Begin writing the code
+     1. Designing the TestBase class
+     2. Creating TestCases
+     3. Running a DDT using data from external repository using JDBC jar
+   
+
+

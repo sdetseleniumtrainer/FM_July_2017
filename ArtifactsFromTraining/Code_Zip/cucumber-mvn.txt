@@ -1,0 +1,39 @@
+1.create maven project
+
+2.add dependencies related to cucumber (google cucumber maven dependency)
+   a.cucumber-java (version 1.2.2)
+   b.cucumber-junit(version 1.2.2)
+   c.junit (google junit maven dependency)
+   d.selenium (selenium maven dependency)
+
+src/test/resources
+com.fannie.features
+Login.feature
+
+
+src/test/java
+com.fannie.login_step_definition
+LoginTest.java
+com.fannie.cucumbertestrunners
+RunCukeTest.java
+
+com.fannie.config
+Config.properties
+OR.properties
+
+com.fannie.selenium
+SeleniumFunction.java
+
+
+
+Deploy in Git-Hub
+
+Run from Jenkins
+
+--------------
+
+Run SauceLabs
+
+ShootEmails
+
+

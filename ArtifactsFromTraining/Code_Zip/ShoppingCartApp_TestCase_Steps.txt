@@ -1,0 +1,10 @@
+1. Search for product/s
+2. Add to the Cart
+3. Modify(Adding/removing) cart
+4. Check out cart
+   a) Customer Info
+   b) Payment Info
+   c) Shipping Info
+   d) Capture the Order Confirmation
+
+Work on your code to remove hard-coded stuff from your script
